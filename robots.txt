@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /docs/
+
+Sitemap: https://111176.com/sitemap.xml
