@@ -26,7 +26,7 @@ Page bodies live in `tools/pages.py`, `tools/pages_b.py` and `tools/articles.py`
 ```
 python3 tools/build.py
 ```
-This regenerates all the HTML files and `sitemap.xml`. A GitHub Action (`.github/workflows/build.yml`) also rebuilds automatically on every push that touches `tools/`.
+This regenerates all the HTML files and `sitemap.xml`. `tools/make_images.py` regenerates the logo and social-share PNGs (needs Pillow and Noto CJK fonts).
 
 ## Custom domain
 1. Point the DNS for 111176.com to GitHub Pages:
